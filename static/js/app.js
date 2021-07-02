@@ -112,7 +112,7 @@ function infoData(id) {
 }
 
 // create the function for the change event
-function changeEvent(id) {
+function optionChanged(id) {
     plotData(id);
     infoData(id);
 }
